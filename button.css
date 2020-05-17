@@ -1,0 +1,28 @@
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    background-color: silver;
+    border: black;
+    padding: 20px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 60px;
+    margin: 20px 165px;
+    font-style: normal;
+    font-weight: normal;
+    position: relative;
+    top:-40px;
+    left:70px;
+
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+     background-color: grey;
+}
+
+/* Button Colors and Styles */

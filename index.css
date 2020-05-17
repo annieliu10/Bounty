@@ -1,0 +1,532 @@
+
+/* 
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.navbar {
+    
+    height: 300px;
+    color: black;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    background-color: #E0E0E0;
+    height: 100px;
+    color: black;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+    
+}
+
+.todo-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 20px 0;
+    width: 70%;
+    border-bottom: 1px solid #cecece;
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    color: #333333;
+}
+
+
+/*
+.contacts {
+    width: 42;
+    height: 42;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-card {
+    flex-basis: 250px;
+    margin: 20px;
+}
+
+.button {
+  background-color: beige;
+    border: none;
+  color: black;
+  padding: 30px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 70px;
+  margin: 10px 110px;
+  font-family: Molengo;
+font-style: normal;
+font-weight: normal;
+  cursor: pointer;
+    
+}
+
+
+
+
+
+.logo {
+position: absolute;
+width: 100px;
+ height: 100px;
+ right: 500px;
+ top: 30px;
+background: url(veggies.png);
+}
+
+body {
+   
+    background: url(marbles.jpg);
+}
+
+
+.crowd {
+    position: absolute;
+width: 200px;
+ height: 200px;
+ right: 770px;
+ top: 370px;
+    background: url(crowd.png); 
+    
+}
+
+.volunteer{
+    position: absolute;
+width: 200px;
+ height: 200px;
+ right: 200px;
+ top: 370px;
+    background: url(volunteer.png); 
+}
+
+
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+
+ul.header {
+  background-color: black;
+  padding: 0;
+}
+
+ul.header li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+
+
+
+
+.button1 {
+  background-color: lightpink;
+    border: none;
+  color: black;
+  padding: 20px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 10px 110px;
+  font-family: Molengo;
+font-style: normal;
+font-weight: normal;
+  cursor: pointer;
+    
+}
+
+.forms {
+    background-color:bisque;
+    border: black
+    
+}
+
+.grocery {
+    width: 550px;
+ height: 399px;
+ right: 300px;
+ top: 370px;
+     background: url(grocery.jpg); 
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+.gmarker {
+    background: url(g%20marker.png); 
+    position: absolute;
+    width: 30px;
+ height: 80px;
+ right: 400px;
+ top: 370px; 
+}
+*/
+body {
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+.navbar {
+
+    height: 520px;
+    color: black;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 120px;
+    font-weight:1800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.heading {
+    background-color: #E0E0E0;
+    height: 600px;
+    width:1600px;
+    color: black;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: -2;
+    left: -60px;
+}
+
+.heading h1 {
+  font-size: 10vw;
+  font-weight: 1800px;
+  font-style:italic;
+  position:relative;
+  z-index: 1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  align-items: center;
+}
+
+.header p {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  align-items: center;
+  font-size:22px;
+}
+
+.banner {
+    background-color: #E0E0E0;
+    height: 100px;
+    color: black;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+
+}
+
+.todo-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 20px 0;
+    width: 70%;
+    border-bottom: 1px solid #cecece;
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    color: #333333;
+}
+
+.todo-list {
+    background-color: white;
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #efefef;
+    box-shadow:
+    /* The top layer shadow */
+        0 1px 1px rgba(0,0,0,0.15),
+            /* The second layer */
+        0 10px 0 -5px #eee,
+            /* The second layer shadow */
+        0 10px 1px -4px rgba(0,0,0,0.15),
+            /* The third layer */
+        0 20px 0 -10px #eee,
+            /* The third layer shadow */
+        0 20px 1px -9px rgba(0,0,0,0.15);
+    padding: 30px;
+}
+
+
+.contacts {
+    width: 42;
+    height: 42;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-card {
+    flex-basis: 250px;
+    margin: 20px;
+}
+
+.volbtn {
+  background-color: beige;
+  border: none;
+  color: black;
+  padding: 30px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 60px;
+  margin: 10px 110px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  cursor: pointer;
+  position: absolute;
+
+}
+
+.userbtn {
+  background-color: beige;
+  border: none;
+  color: black;
+  padding: 30px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 60px;
+  margin: 10px 110px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  cursor: pointer;
+  position: absolute;
+
+}
+
+.logo {
+position: fixed;
+z-index: -1;
+width: 500px;
+ height: 500px;
+ right: 450px;
+ top: 120px;
+background: url(logo.png);
+opacity: 0.2;
+}
+
+body {
+
+    background: url(marbles.jpg)
+}
+
+
+.crowd {
+    position: absolute;
+width: 200px;
+ height: 200px;
+ right: 770px;
+ top: 370px;
+    background: url(crowd.png);
+
+}
+
+.volunteer{
+    position: absolute;
+width: 200px;
+ height: 200px;
+ right: 200px;
+ top: 370px;
+    background: url(volunteer.png);
+}
+
+
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+
+ul.header {
+  background-color: black;
+  padding: 0;
+}
+
+ul.header li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+
+
+
+
+.todoButton {
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    background-color: silver;
+    border: black;
+    padding: 10px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 20px 165px;
+    font-style: normal;
+    font-weight: normal;
+    position: relative;
+    top: 20px;
+    left: 400px;
+
+}
+
+.todoButton:hover {
+    transform: translateY(-3px);
+     background-color: grey;
+}
+
+.forms {
+    background-color: gainsboro;
+    border: black;
+
+}
+
+.grocery {
+    width: 550px;
+ height: 399px;
+ right: 300px;
+ top: 370px;
+     background: url(grocery.jpg);
+}
+
+   .popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+ 
+.crowd {
+    position: absolute;
+width: 200px;
+ height: 200px;
+ right: 770px;
+ top: 370px;
+    background: url(crowd.png); 
+    
+}
+
+.volunteer{
+    position: absolute;
+width: 200px;
+ height: 200px;
+ right: 200px;
+ top: 370px;
+    background: url(volunteer.png); 
+}
+
+.gmarker{
+    position: relative;
+    width: 30px;
+ height: 80px;
+ right: 200px;
+ top: 370px;
+    background: url(g%20marker.png)
+}
